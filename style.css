@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Micro 5", sans-serif;
+    color: rgb(37, 37, 37);
+
 }
 
 body {
@@ -45,6 +47,8 @@ button {
     background-color: white;
     border: .5px solid rgba(128, 128, 128, 0.5);
     font-size: 40px;
+    line-height: 1;
+    transition: color .5s, background-color .5s, border .5s;
 }
 
 .operator {
@@ -55,8 +59,20 @@ button {
     grid-row: span 4;
     background-color: rgb(230, 130, 90);
     border-bottom-right-radius: 20px;
+    transition: color .5s, background-color .5s;
 }
 
 .dot {
     border-bottom-left-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border: 0;
+}
+
+.equal:hover {
+    background-color: rgb(37, 37, 37);
+    color: rgb(230, 130, 90);
 }
