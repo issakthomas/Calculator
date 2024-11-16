@@ -29,6 +29,7 @@ body {
     background-color: rgb(37, 37, 37);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    border: 0;
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -36,7 +37,7 @@ body {
 }
 
 span {
-    font-size: 75px;
+    font-size: 80px;
     color: white;
 }
 
@@ -62,7 +63,7 @@ button {
     transition: color .5s, background-color .5s;
 }
 
-.dot {
+.delete {
     border-bottom-left-radius: 20px;
 }
 
